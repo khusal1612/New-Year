@@ -2,7 +2,7 @@ import datetime
 
 from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__NewYear_)
 
 @app.route("/")
 def index():
